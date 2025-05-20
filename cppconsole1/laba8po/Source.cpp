@@ -5,7 +5,8 @@
 #include <sstream>
 #include <algorithm>
 #include <queue>
-
+#include <stdexcept>
+#include "processing.h"
 
 struct CallRecord {
     std::string number;
