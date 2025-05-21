@@ -137,6 +137,6 @@ int main() {
     for (const auto& record : records) {
         std::cout << record.number << " -> " << record.called_number << " | " << record.duration << " | " << record.cost_per_minute << "\n";
     }
-
+    std::cout << "Nice!!!!";
     return 0;
 }
