@@ -5,12 +5,12 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace unittestprojectnew
 {
-	TEST_CLASS(unittestprojectnew)
-	{
+	TEST_CLASS(unittestprojectnew){
 	public:
 		
 		TEST_METHOD(TestMethod1)
 		{
+			Assert::Fail();
 		}
 	};
 }
